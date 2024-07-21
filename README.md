@@ -23,38 +23,45 @@ This project aims to predict sales for different clothing categories (Women, Men
 
 ## Project Workflow
 
-1. **Data Loading**: 
-    - Load datasets using `pandas`.
+1. **Data Loading**:
 
-2. **Data Cleaning and Preprocessing**: 
-    - Handle missing values.
-    - Format dates.
-    - Normalize and standardize data.
+   - Load datasets using `pandas`.
 
-3. **Data Integration**: 
-    - Merge datasets to create a comprehensive dataset.
+2. **Data Cleaning and Preprocessing**:
 
-4. **Feature Selection**: 
-    - Identify features with high correlation to sales for each clothing category.
+   - Handle missing values.
+   - Format dates.
+   - Normalize and standardize data.
 
-5. **Data Preparation for Modeling**: 
-    - Create dataframes with 'ds' (date) and 'y' (sales) columns.
-    - Incorporate selected features.
+3. **Data Integration**:
 
-6. **Model Training and Forecasting**: 
-    - Train Prophet models separately for Women, Men, and Other categories.
-    - Incorporate country holidays for better seasonality handling.
-    - Generate forecasts using the trained models.
+   - Merge datasets to create a comprehensive dataset.
 
-7. **Model Evaluation**: 
-    - Evaluate model performance using metrics such as Mean Absolute Error (MAE) and Root Mean Squared Error (RMSE).
-    - Compare performance across different clothing categories.
+4. **Feature Selection**:
 
-8. **Submission and Evaluation on Kaggle**: 
-    - Prepare test data similarly to training data.
-    - Generate predictions for the test set.
-    - Submit predictions on Kaggle platform.
-    - Evaluate performance based on Public and Private Scores.
+   - Identify features with high correlation to sales for each clothing category.
+
+5. **Data Preparation for Modeling**:
+
+   - Create dataframes with 'ds' (date) and 'y' (sales) columns.
+   - Incorporate selected features.
+
+6. **Model Training and Forecasting**:
+
+   - Train Prophet models separately for Women, Men, and Other categories.
+   - Incorporate country holidays for better seasonality handling.
+   - Generate forecasts using the trained models.
+
+7. **Model Evaluation**:
+
+   - Evaluate model performance using metrics such as Mean Absolute Error (MAE) and Root Mean Squared Error (RMSE).
+   - Compare performance across different clothing categories.
+
+8. **Submission and Evaluation on Kaggle**:
+   - Prepare test data similarly to training data.
+   - Generate predictions for the test set.
+   - Submit predictions on Kaggle platform.
+   - Evaluate performance based on Public and Private Scores.
 
 ## Results
 
